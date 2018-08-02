@@ -16,6 +16,7 @@
 		2E3D137521109F6200D6ADF5 /* ToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D137421109F6200D6ADF5 /* ToolKitTests.m */; };
 		2E3D138021109F6200D6ADF5 /* ToolKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D137F21109F6200D6ADF5 /* ToolKitUITests.m */; };
 		2E3D139221109FD700D6ADF5 /* NSString+StringHandleExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D139121109FD700D6ADF5 /* NSString+StringHandleExtention.m */; };
+		2EB496942112F66A00AA219E /* UIView+JShawLayerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB496932112F66A00AA219E /* UIView+JShawLayerExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		2E3D138121109F6200D6ADF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E3D139021109FD700D6ADF5 /* NSString+StringHandleExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+StringHandleExtention.h"; sourceTree = "<group>"; };
 		2E3D139121109FD700D6ADF5 /* NSString+StringHandleExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringHandleExtention.m"; sourceTree = "<group>"; };
+		2EB496922112F66A00AA219E /* UIView+JShawLayerExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JShawLayerExtention.h"; sourceTree = "<group>"; };
+		2EB496932112F66A00AA219E /* UIView+JShawLayerExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JShawLayerExtention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,7 @@
 		2E3D138E21109F7C00D6ADF5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2EB496912112F63400AA219E /* UView */,
 				2E3D138F21109F9C00D6ADF5 /* NSString */,
 			);
 			path = Category;
@@ -159,6 +163,15 @@
 				2E3D139121109FD700D6ADF5 /* NSString+StringHandleExtention.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		2EB496912112F63400AA219E /* UView */ = {
+			isa = PBXGroup;
+			children = (
+				2EB496922112F66A00AA219E /* UIView+JShawLayerExtention.h */,
+				2EB496932112F66A00AA219E /* UIView+JShawLayerExtention.m */,
+			);
+			path = UView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 				2E3D136021109F5F00D6ADF5 /* ViewController.m in Sources */,
 				2E3D136B21109F6200D6ADF5 /* main.m in Sources */,
 				2E3D139221109FD700D6ADF5 /* NSString+StringHandleExtention.m in Sources */,
+				2EB496942112F66A00AA219E /* UIView+JShawLayerExtention.m in Sources */,
 				2E3D135D21109F5F00D6ADF5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
