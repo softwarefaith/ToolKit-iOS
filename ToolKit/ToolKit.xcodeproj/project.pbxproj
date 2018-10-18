@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2975AF21786B0000388CAF /* NSString+DecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2975AE21786B0000388CAF /* NSString+DecimalNumber.m */; };
 		2E3D135D21109F5F00D6ADF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D135C21109F5F00D6ADF5 /* AppDelegate.m */; };
 		2E3D136021109F5F00D6ADF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D135F21109F5F00D6ADF5 /* ViewController.m */; };
 		2E3D136321109F5F00D6ADF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D136121109F5F00D6ADF5 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E2975AD21786B0000388CAF /* NSString+DecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DecimalNumber.h"; sourceTree = "<group>"; };
+		2E2975AE21786B0000388CAF /* NSString+DecimalNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DecimalNumber.m"; sourceTree = "<group>"; };
 		2E3D135821109F5F00D6ADF5 /* ToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3D135B21109F5F00D6ADF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E3D135C21109F5F00D6ADF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 			children = (
 				2E3D139021109FD700D6ADF5 /* NSString+StringHandleExtention.h */,
 				2E3D139121109FD700D6ADF5 /* NSString+StringHandleExtention.m */,
+				2E2975AD21786B0000388CAF /* NSString+DecimalNumber.h */,
+				2E2975AE21786B0000388CAF /* NSString+DecimalNumber.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2975AF21786B0000388CAF /* NSString+DecimalNumber.m in Sources */,
 				2E3D136021109F5F00D6ADF5 /* ViewController.m in Sources */,
 				2E3D136B21109F6200D6ADF5 /* main.m in Sources */,
 				2E3D139221109FD700D6ADF5 /* NSString+StringHandleExtention.m in Sources */,
