@@ -16,7 +16,7 @@
  http://www.skyfox.org/ios-nsdecimalnumber-use.html
  https://stackoverflow.com/questions/421463/should-i-use-nsdecimalnumber-to-deal-with-money
 
- *、
+ */
 
 @interface NSString (DecimalNumber)
 + (NSString *)decimalNumberWithNSNumber:(NSNumber * )number;
